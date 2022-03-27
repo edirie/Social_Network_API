@@ -13,9 +13,9 @@ app.use(require('./routes'));
 
 // Connect mongoose
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/social_network_api', {
-  useFindAndModify: false,
-  useNewUrlParser: true,
-  useUnifiedTopology: true
+//   useFindAndModify: false,
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true
 });
 
 mongoose.set('debug', true);
